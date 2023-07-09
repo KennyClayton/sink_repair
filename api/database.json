@@ -1,0 +1,71 @@
+{
+  "plumbers": [
+    {
+      "name": "Jo-Joe's Plumbing",
+      "workType": "Plumbing",
+      "id": 1
+    },
+    {
+      "name": "Plumb-Tastic LLC",
+      "workType": "Plumbing",
+      "id": 2
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "8",
+      "plumberId": "1",
+      "date_created": "7/7/2023, 4:41:44 PM",
+      "id": 1
+    },
+    {
+      "requestId": "4",
+      "plumberId": "2",
+      "date_created": "7/7/2023, 4:51:03 PM",
+      "id": 2
+    },
+    {
+      "requestId": "4",
+      "plumberId": "1",
+      "date_created": "7/7/2023, 4:54:05 PM",
+      "id": 3
+    }
+  ],
+  "requests": [
+    {
+      "description": "plumbing stack eaten by mole rats",
+      "address": "203 Rabid Trail",
+      "budget": "1200",
+      "neededBy": "2023-05-05",
+      "id": 4
+    },
+    {
+      "description": "water is not working",
+      "address": "100 main",
+      "budget": "1000",
+      "neededBy": "2023-07-26",
+      "id": 5
+    },
+    {
+      "description": "100",
+      "address": "100",
+      "budget": "1001",
+      "neededBy": "2023-07-11",
+      "id": 6
+    },
+    {
+      "description": "sink is not draining",
+      "address": "200 main street",
+      "budget": "200",
+      "neededBy": "2023-07-11",
+      "id": 7
+    },
+    {
+      "description": "well might be dry. no water coming in.",
+      "address": "347 Desert Blvd",
+      "budget": "3000",
+      "neededBy": "2023-08-04",
+      "id": 8
+    }
+  ]
+}

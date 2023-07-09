@@ -1,0 +1,25 @@
+/* makes the labels like "Description" and "address" a larger text than the default */
+/* .serviceForm {
+    font-size: 1.1em;
+} */
+/* the field contains the label and input....so both are affected */
+.field {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column
+    
+    }
+
+    /* the word Address is affected with a larger font and color black */
+.label {
+    font-size: 1.2em;
+    color: black;
+}
+
+#submitRequest {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(96, 11, 192);
+    color: white;
+    font-size: 1rem;
+}
